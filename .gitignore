@@ -1,0 +1,15 @@
+.vscode/
+src/App/bin/
+src/App/obj/
+src/BDO/bin/
+src/BDO/obj/
+src/DataAccess/bin/
+src/DataAccess/obj/
+src/Interfaces/bin/
+src/Interfaces/obj/
+src/BusinessLayer/bin/
+src/BusinessLayer/obj/
+tests/BusinessLayer/bin/
+tests/BusinessLayer/obj/
+tests/DataAccess/bin/
+tests/DataAccess/obj/

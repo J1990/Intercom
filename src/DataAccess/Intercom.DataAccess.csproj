@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RestoreFallbackFolders>clear</RestoreFallbackFolders>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+    <ProjectReference Include="..\BDO\Intercom.BDO.csproj" />
+    <ProjectReference Include="..\Interfaces\Intercom.Interfaces.csproj" />
+  </ItemGroup>
+</Project>

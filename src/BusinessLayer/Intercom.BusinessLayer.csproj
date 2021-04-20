@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RestoreFallbackFolders>clear</RestoreFallbackFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\Intercom.DataAccess.csproj" />
+    <ProjectReference Include="..\Interfaces\Intercom.Interfaces.csproj" />
+    <ProjectReference Include="..\BDO\Intercom.BDO.csproj" />
+  </ItemGroup>
+</Project>
